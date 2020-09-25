@@ -1,0 +1,31 @@
+#combos {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+#combos .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.combos-jap {
+	margin: 20px;
+}
+.combos-jap img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+@media (min-width:480px) {
+	.combos-jap {
+		width: 40%;
+	}
+}
+
+@media (min-width:1024px) {
+	.combos-jap {
+		width: auto;
+	}
+}
